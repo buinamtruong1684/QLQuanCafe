@@ -1,0 +1,137 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using QLQuanCafe.Models;
+using Microsoft.EntityFrameworkCore;
+
+namespace QLQuanCafe
+{
+    public partial class frmBaoCao : Form
+    {
+        private QLQuanCafeContext _context;
+
+        public frmBaoCao()
+        {
+            InitializeComponent();
+            _context = new QLQuanCafeContext();
+        }
+
+        private void frmBaoCao_Load(object sender, EventArgs e)
+        {
+            LoadBaoCaoDoanhThuTheoNgay();
+        }
+
+        private void LoadBaoCaoDoanhThuTheoNgay()
+        {
+            try
+            {
+                var baoCao = _context.HoaDons
+                    .Where(h => h.NgayLap.HasValue)
+                    .GroupBy(h => h.NgayLap!.Value.Date)
+                    .Select(g => new
+                    {
+                        NgayLap = g.Key,
+                        SoLuongHoaDon = g.Count(),
+                        DoanhThu = g.SelectMany(h => h.ChiTietHoaDons)
+                                     .Sum(c => (c.SoLuong ?? 0) * (c.DonGia ?? 0))
+                    })
+                    .OrderByDescending(x => x.NgayLap)
+                    .ToList();
+
+                dgvBaoCao.DataSource = baoCao;
+                LabelTitle.Text = "Báo cáo doanh thu theo ngày";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private void LoadBaoCaoDoanhThuTheoThang()
+        {
+            try
+            {
+                var baoCao = _context.HoaDons
+                    .Where(h => h.NgayLap.HasValue)
+                    .GroupBy(h => new { h.NgayLap!.Value.Year, h.NgayLap.Value.Month })
+                    .Select(g => new
+                    {
+                        Nam = g.Key.Year,
+                        Thang = g.Key.Month,
+                        SoLuongHoaDon = g.Count(),
+                        DoanhThuTrungBinh = g.SelectMany(h => h.ChiTietHoaDons)
+                                            .Average(c => (c.SoLuong ?? 0) * (c.DonGia ?? 0)),
+                        DoanhThu = g.SelectMany(h => h.ChiTietHoaDons)
+                                    .Sum(c => (c.SoLuong ?? 0) * (c.DonGia ?? 0))
+                    })
+                    .OrderByDescending(x => new { x.Nam, x.Thang })
+                    .ToList();
+
+                dgvBaoCao.DataSource = baoCao;
+                LabelTitle.Text = "Báo cáo doanh thu theo tháng";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private void LoadBaoCaoMonBanChay()
+        {
+            try
+            {
+                var baoCao = _context.ChiTietHoaDons
+                    .Include(c => c.MaSpNavigation)
+                    .GroupBy(c => new { c.MaSp, c.MaSpNavigation!.TenSp })
+                    .Select(g => new
+                    {
+                        MaSp = g.Key.MaSp,
+                        TenSanPham = g.Key.TenSp,
+                        TongSoLuongBan = g.Sum(c => c.SoLuong ?? 0),
+                        DoanhThu = g.Sum(c => (c.SoLuong ?? 0) * (c.DonGia ?? 0))
+                    })
+                    .OrderByDescending(x => x.TongSoLuongBan)
+                    .Take(10)
+                    .ToList();
+
+                dgvBaoCao.DataSource = baoCao;
+                LabelTitle.Text = "Báo cáo món bán chạy (Top 10)";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+
+        private void btnDoanhThuTheoNgay_Click(object sender, EventArgs e)
+        {
+            LoadBaoCaoDoanhThuTheoNgay();
+        }
+
+        private void btnDoanhThuTheoThang_Click(object sender, EventArgs e)
+        {
+            LoadBaoCaoDoanhThuTheoThang();
+        }
+
+        private void btnMonBanChay_Click(object sender, EventArgs e)
+        {
+            LoadBaoCaoMonBanChay();
+        }
+
+        private void frmBaoCao_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            _context?.Dispose();
+        }
+
+        private void panelButtons_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+    }
+}

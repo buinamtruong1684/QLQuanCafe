@@ -1,0 +1,187 @@
+﻿namespace QLQuanCafe
+{
+    partial class frmDashboard
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            pnlTongTienHom = new Panel();
+            lblTongTienHom = new Label();
+            lblTongTienHomTitle = new Label();
+            pnlSoBanDangDung = new Panel();
+            lblSoBanDangDung = new Label();
+            lblSoBanDangDungTitle = new Label();
+            pnlSoHoaDonHom = new Panel();
+            lblSoHoaDonHom = new Label();
+            lblSoHoaDonHomTitle = new Label();
+            pnlMain = new Panel();
+            pnlTongTienHom.SuspendLayout();
+            pnlSoBanDangDung.SuspendLayout();
+            pnlSoHoaDonHom.SuspendLayout();
+            pnlMain.SuspendLayout();
+            SuspendLayout();
+            // 
+            // pnlTongTienHom
+            // 
+            pnlTongTienHom.BackColor = Color.FromArgb(52, 152, 219);
+            pnlTongTienHom.Controls.Add(lblTongTienHom);
+            pnlTongTienHom.Controls.Add(lblTongTienHomTitle);
+            pnlTongTienHom.Location = new Point(20, 20);
+            pnlTongTienHom.Name = "pnlTongTienHom";
+            pnlTongTienHom.Size = new Size(250, 150);
+            pnlTongTienHom.TabIndex = 0;
+            // 
+            // lblTongTienHom
+            // 
+            lblTongTienHom.AutoSize = true;
+            lblTongTienHom.Font = new Font("Segoe UI", 28F, FontStyle.Bold);
+            lblTongTienHom.ForeColor = Color.White;
+            lblTongTienHom.Location = new Point(15, 60);
+            lblTongTienHom.Name = "lblTongTienHom";
+            lblTongTienHom.Size = new Size(78, 51);
+            lblTongTienHom.TabIndex = 1;
+            lblTongTienHom.Text = "0 đ";
+            // 
+            // lblTongTienHomTitle
+            // 
+            lblTongTienHomTitle.AutoSize = true;
+            lblTongTienHomTitle.Font = new Font("Segoe UI", 12F);
+            lblTongTienHomTitle.ForeColor = Color.White;
+            lblTongTienHomTitle.Location = new Point(15, 15);
+            lblTongTienHomTitle.Name = "lblTongTienHomTitle";
+            lblTongTienHomTitle.Size = new Size(140, 21);
+            lblTongTienHomTitle.TabIndex = 0;
+            lblTongTienHomTitle.Text = "Tổng tiền hôm nay";
+            // 
+            // pnlSoBanDangDung
+            // 
+            pnlSoBanDangDung.BackColor = Color.FromArgb(46, 204, 113);
+            pnlSoBanDangDung.Controls.Add(lblSoBanDangDung);
+            pnlSoBanDangDung.Controls.Add(lblSoBanDangDungTitle);
+            pnlSoBanDangDung.Location = new Point(290, 20);
+            pnlSoBanDangDung.Name = "pnlSoBanDangDung";
+            pnlSoBanDangDung.Size = new Size(250, 150);
+            pnlSoBanDangDung.TabIndex = 1;
+            // 
+            // lblSoBanDangDung
+            // 
+            lblSoBanDangDung.AutoSize = true;
+            lblSoBanDangDung.Font = new Font("Segoe UI", 28F, FontStyle.Bold);
+            lblSoBanDangDung.ForeColor = Color.White;
+            lblSoBanDangDung.Location = new Point(15, 60);
+            lblSoBanDangDung.Name = "lblSoBanDangDung";
+            lblSoBanDangDung.Size = new Size(83, 51);
+            lblSoBanDangDung.TabIndex = 1;
+            lblSoBanDangDung.Text = "0/0";
+            // 
+            // lblSoBanDangDungTitle
+            // 
+            lblSoBanDangDungTitle.AutoSize = true;
+            lblSoBanDangDungTitle.Font = new Font("Segoe UI", 12F);
+            lblSoBanDangDungTitle.ForeColor = Color.White;
+            lblSoBanDangDungTitle.Location = new Point(15, 15);
+            lblSoBanDangDungTitle.Name = "lblSoBanDangDungTitle";
+            lblSoBanDangDungTitle.Size = new Size(137, 21);
+            lblSoBanDangDungTitle.TabIndex = 0;
+            lblSoBanDangDungTitle.Text = "Số bàn đang dùng";
+            // 
+            // pnlSoHoaDonHom
+            // 
+            pnlSoHoaDonHom.BackColor = Color.FromArgb(155, 89, 182);
+            pnlSoHoaDonHom.Controls.Add(lblSoHoaDonHom);
+            pnlSoHoaDonHom.Controls.Add(lblSoHoaDonHomTitle);
+            pnlSoHoaDonHom.Location = new Point(560, 20);
+            pnlSoHoaDonHom.Name = "pnlSoHoaDonHom";
+            pnlSoHoaDonHom.Size = new Size(250, 150);
+            pnlSoHoaDonHom.TabIndex = 2;
+            // 
+            // lblSoHoaDonHom
+            // 
+            lblSoHoaDonHom.AutoSize = true;
+            lblSoHoaDonHom.Font = new Font("Segoe UI", 28F, FontStyle.Bold);
+            lblSoHoaDonHom.ForeColor = Color.White;
+            lblSoHoaDonHom.Location = new Point(15, 60);
+            lblSoHoaDonHom.Name = "lblSoHoaDonHom";
+            lblSoHoaDonHom.Size = new Size(44, 51);
+            lblSoHoaDonHom.TabIndex = 1;
+            lblSoHoaDonHom.Text = "0";
+            // 
+            // lblSoHoaDonHomTitle
+            // 
+            lblSoHoaDonHomTitle.AutoSize = true;
+            lblSoHoaDonHomTitle.Font = new Font("Segoe UI", 12F);
+            lblSoHoaDonHomTitle.ForeColor = Color.White;
+            lblSoHoaDonHomTitle.Location = new Point(15, 15);
+            lblSoHoaDonHomTitle.Name = "lblSoHoaDonHomTitle";
+            lblSoHoaDonHomTitle.Size = new Size(155, 21);
+            lblSoHoaDonHomTitle.TabIndex = 0;
+            lblSoHoaDonHomTitle.Text = "Số hoá đơn hôm nay";
+            // 
+            // pnlMain
+            // 
+            pnlMain.Controls.Add(pnlTongTienHom);
+            pnlMain.Controls.Add(pnlSoBanDangDung);
+            pnlMain.Controls.Add(pnlSoHoaDonHom);
+            pnlMain.Dock = DockStyle.Fill;
+            pnlMain.Location = new Point(0, 0);
+            pnlMain.Name = "pnlMain";
+            pnlMain.Size = new Size(830, 389);
+            pnlMain.TabIndex = 3;
+            // 
+            // frmDashboard
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(830, 389);
+            Controls.Add(pnlMain);
+            Name = "frmDashboard";
+            Text = "Tổng quan";
+            FormClosing += frmDashboard_FormClosing;
+            Load += frmDashboard_Load;
+            pnlTongTienHom.ResumeLayout(false);
+            pnlTongTienHom.PerformLayout();
+            pnlSoBanDangDung.ResumeLayout(false);
+            pnlSoBanDangDung.PerformLayout();
+            pnlSoHoaDonHom.ResumeLayout(false);
+            pnlSoHoaDonHom.PerformLayout();
+            pnlMain.ResumeLayout(false);
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Panel pnlTongTienHom;
+        private Label lblTongTienHomTitle;
+        private Label lblTongTienHom;
+        private Panel pnlSoBanDangDung;
+        private Label lblSoBanDangDungTitle;
+        private Label lblSoBanDangDung;
+        private Panel pnlSoHoaDonHom;
+        private Label lblSoHoaDonHomTitle;
+        private Label lblSoHoaDonHom;
+        private Panel pnlMain;
+    }
+}

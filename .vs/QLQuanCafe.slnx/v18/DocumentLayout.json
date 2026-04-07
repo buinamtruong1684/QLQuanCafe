@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -15,16 +11,27 @@
       "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\VUONG PC\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-958875681\\frmDashboard.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\frmdashboard.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\frmdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\frmbaocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|f:\\king\\lap trinh .net\\qlbancf\\qlquancafe\\qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,78 +53,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\MainForm.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\MainForm.cs",
+              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\MainForm.cs",
+              "RelativeToolTip": "QLQuanCafe\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:46:31.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\MainForm.Designer.cs",
+              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\MainForm.Designer.cs",
+              "RelativeToolTip": "QLQuanCafe\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:46:31.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmBaoCao.cs",
+              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmBaoCao.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\frmBaoCao.cs",
+              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmBaoCao.cs",
+              "RelativeToolTip": "QLQuanCafe\\frmBaoCao.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:44:00.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "frmDashboard.cs [Design]",
               "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.cs",
               "RelativeDocumentMoniker": "QLQuanCafe\\frmDashboard.cs",
               "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.cs [Design]",
               "RelativeToolTip": "QLQuanCafe\\frmDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:14:58.184Z",
+              "WhenOpened": "2026-04-07T12:40:18.051Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmDashboard.cs",
+              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\frmDashboard.cs",
+              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.cs",
+              "RelativeToolTip": "QLQuanCafe\\frmDashboard.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAIBJwMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:15:42.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmDashboard.Designer.cs",
+              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.Designer.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\frmDashboard.Designer.cs",
+              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.Designer.cs",
+              "RelativeToolTip": "QLQuanCafe\\frmDashboard.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:15:25.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "frmDashboard.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\VUONG PC\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-958875681\\frmDashboard.Designer.cs",
+              "ToolTip": "C:\\Users\\VUONG PC\\AppData\\Local\\Temp\\CopilotBaseline\\Deleted\\-958875681\\frmDashboard.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T12:14:59.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmBaoCao.cs [Design]",
               "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmBaoCao.cs",
               "RelativeDocumentMoniker": "QLQuanCafe\\frmBaoCao.cs",
               "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmBaoCao.cs [Design]",
               "RelativeToolTip": "QLQuanCafe\\frmBaoCao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:14:54.231Z",
+              "WhenOpened": "2026-04-07T12:09:05.99Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmDashboard.cs",
-              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.cs",
-              "RelativeDocumentMoniker": "QLQuanCafe\\frmDashboard.cs",
-              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmDashboard.cs",
-              "RelativeToolTip": "QLQuanCafe\\frmDashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:14:49.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmBaoCao.cs",
-              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmBaoCao.cs",
-              "RelativeDocumentMoniker": "QLQuanCafe\\frmBaoCao.cs",
-              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\frmBaoCao.cs",
-              "RelativeToolTip": "QLQuanCafe\\frmBaoCao.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:14:42.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\MainForm.cs",
-              "RelativeDocumentMoniker": "QLQuanCafe\\MainForm.cs",
-              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\MainForm.cs [Design]",
-              "RelativeToolTip": "QLQuanCafe\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:14:10.341Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\Program.cs",
-              "RelativeDocumentMoniker": "QLQuanCafe\\Program.cs",
-              "ToolTip": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\Program.cs",
-              "RelativeToolTip": "QLQuanCafe\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T02:14:07.822Z",
-              "EditorCaption": ""
             }
           ]
         }

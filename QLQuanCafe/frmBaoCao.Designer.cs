@@ -74,7 +74,7 @@
             // 
             // btnMonBanChay
             // 
-            btnMonBanChay.Location = new Point(570, 12);
+            btnMonBanChay.Location = new Point(723, 9);
             btnMonBanChay.Name = "btnMonBanChay";
             btnMonBanChay.Size = new Size(150, 35);
             btnMonBanChay.TabIndex = 3;
@@ -83,7 +83,7 @@
             // 
             // btnDoanhThuTheoThang
             // 
-            btnDoanhThuTheoThang.Location = new Point(410, 12);
+            btnDoanhThuTheoThang.Location = new Point(567, 9);
             btnDoanhThuTheoThang.Name = "btnDoanhThuTheoThang";
             btnDoanhThuTheoThang.Size = new Size(150, 35);
             btnDoanhThuTheoThang.TabIndex = 2;
@@ -92,7 +92,7 @@
             // 
             // btnDoanhThuTheoNgay
             // 
-            btnDoanhThuTheoNgay.Location = new Point(250, 12);
+            btnDoanhThuTheoNgay.Location = new Point(411, 7);
             btnDoanhThuTheoNgay.Name = "btnDoanhThuTheoNgay";
             btnDoanhThuTheoNgay.Size = new Size(150, 35);
             btnDoanhThuTheoNgay.TabIndex = 1;
