@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\qlquancafe\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\formthanhtoan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\qlquancafe\\form order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\form order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\form order.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\form order.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\form order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\form order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\models\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\models\\danhmuc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\models\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\models\\ban.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\models\\chitiethoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|c:\\users\\admin\\source\\repos\\qlquancafe\\qlquancafe\\models\\qlquancafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12CCFD8F-DE91-EDF9-8530-26929CA9C6A7}|QLQuanCafe\\QLQuanCafe.csproj|solutionrelative:qlquancafe\\models\\qlquancafecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Program.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Program.cs",
+              "RelativeToolTip": "QLQuanCafe\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T05:27:04.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FORM ORDER.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FORM ORDER.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\FORM ORDER.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FORM ORDER.cs",
+              "RelativeToolTip": "QLQuanCafe\\FORM ORDER.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAWwL0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T04:42:59.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FORM ORDER.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FORM ORDER.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\FORM ORDER.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FORM ORDER.cs [Design]",
+              "RelativeToolTip": "QLQuanCafe\\FORM ORDER.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T04:42:45.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FORM ORDER.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FORM ORDER.Designer.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\FORM ORDER.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FORM ORDER.Designer.cs",
+              "RelativeToolTip": "QLQuanCafe\\FORM ORDER.Designer.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAjwPkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T04:42:19.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormThanhToan.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FormThanhToan.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\FormThanhToan.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FormThanhToan.cs",
+              "RelativeToolTip": "QLQuanCafe\\FormThanhToan.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T03:15:38.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormThanhToan.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FormThanhToan.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\FormThanhToan.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\FormThanhToan.cs [Design]",
+              "RelativeToolTip": "QLQuanCafe\\FormThanhToan.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:49:34.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\MainForm.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\MainForm.cs",
+              "RelativeToolTip": "QLQuanCafe\\MainForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:30:44.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\MainForm.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\MainForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\MainForm.cs [Design]",
+              "RelativeToolTip": "QLQuanCafe\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:30:21.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\MainForm.Designer.cs",
+              "RelativeToolTip": "QLQuanCafe\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T02:41:34.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DanhMuc.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\DanhMuc.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\Models\\DanhMuc.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\DanhMuc.cs",
+              "RelativeToolTip": "QLQuanCafe\\Models\\DanhMuc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:34:09.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\NhanVien.cs",
+              "RelativeToolTip": "QLQuanCafe\\Models\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:34:04.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\HoaDon.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\Models\\HoaDon.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\HoaDon.cs",
+              "RelativeToolTip": "QLQuanCafe\\Models\\HoaDon.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:34:07.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ChiTietHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\ChiTietHoaDon.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\Models\\ChiTietHoaDon.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\ChiTietHoaDon.cs",
+              "RelativeToolTip": "QLQuanCafe\\Models\\ChiTietHoaDon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:34:10.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ban.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\Ban.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\Models\\Ban.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\Ban.cs",
+              "RelativeToolTip": "QLQuanCafe\\Models\\Ban.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:34:25.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QLQuanCafeContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\QLQuanCafeContext.cs",
+              "RelativeDocumentMoniker": "QLQuanCafe\\Models\\QLQuanCafeContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\Models\\QLQuanCafeContext.cs",
+              "RelativeToolTip": "QLQuanCafe\\Models\\QLQuanCafeContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T15:34:00.779Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
