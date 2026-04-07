@@ -32,6 +32,7 @@
             contextMenuStrip1 = new ContextMenuStrip(components);
             menuStrip1 = new MenuStrip();
             danhMụcToolStripMenuItem = new ToolStripMenuItem();
+<<<<<<< HEAD
             danhMụcĐồUốngToolStripMenuItem = new ToolStripMenuItem();
             menuToolStripMenuItem = new ToolStripMenuItem();
             quảnLýToolStripMenuItem = new ToolStripMenuItem();
@@ -44,6 +45,20 @@
             báoCáoToolStripMenuItem = new ToolStripMenuItem();
             dashboardToolStripMenuItem = new ToolStripMenuItem();
             hệThốngToolStripMenuItem = new ToolStripMenuItem();
+=======
+            quảnLýToolStripMenuItem = new ToolStripMenuItem();
+            nghiệpVụToolStripMenuItem = new ToolStripMenuItem();
+            thốngKêToolStripMenuItem = new ToolStripMenuItem();
+            hệThốngToolStripMenuItem = new ToolStripMenuItem();
+            danhMụcĐồUốngToolStripMenuItem = new ToolStripMenuItem();
+            menuToolStripMenuItem = new ToolStripMenuItem();
+            bànToolStripMenuItem = new ToolStripMenuItem();
+            nhânViênToolStripMenuItem = new ToolStripMenuItem();
+            gọiMónToolStripMenuItem = new ToolStripMenuItem();
+            thanhToánToolStripMenuItem = new ToolStripMenuItem();
+            báoCáoToolStripMenuItem = new ToolStripMenuItem();
+            dashboardToolStripMenuItem = new ToolStripMenuItem();
+>>>>>>> origin/main
             thoátToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -69,6 +84,7 @@
             danhMụcToolStripMenuItem.Size = new Size(74, 20);
             danhMụcToolStripMenuItem.Text = "Danh mục";
             // 
+<<<<<<< HEAD
             // danhMụcĐồUốngToolStripMenuItem
             // 
             danhMụcĐồUốngToolStripMenuItem.Name = "danhMụcĐồUốngToolStripMenuItem";
@@ -81,6 +97,8 @@
             menuToolStripMenuItem.Size = new Size(177, 22);
             menuToolStripMenuItem.Text = "Menu";
             // 
+=======
+>>>>>>> origin/main
             // quảnLýToolStripMenuItem
             // 
             quảnLýToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bànToolStripMenuItem, nhânViênToolStripMenuItem });
@@ -88,6 +106,7 @@
             quảnLýToolStripMenuItem.Size = new Size(60, 20);
             quảnLýToolStripMenuItem.Text = "Quản lý";
             // 
+<<<<<<< HEAD
             // bànToolStripMenuItem
             // 
             bànToolStripMenuItem.Name = "bànToolStripMenuItem";
@@ -103,10 +122,16 @@
             // nghiệpVụToolStripMenuItem
             // 
             nghiệpVụToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { gọiMónThanhToánToolStripMenuItem, thanhToánToolStripMenuItem });
+=======
+            // nghiệpVụToolStripMenuItem
+            // 
+            nghiệpVụToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { gọiMónToolStripMenuItem, thanhToánToolStripMenuItem });
+>>>>>>> origin/main
             nghiệpVụToolStripMenuItem.Name = "nghiệpVụToolStripMenuItem";
             nghiệpVụToolStripMenuItem.Size = new Size(74, 20);
             nghiệpVụToolStripMenuItem.Text = "Nghiệp vụ";
             // 
+<<<<<<< HEAD
             // gọiMónThanhToánToolStripMenuItem
             // 
             gọiMónThanhToánToolStripMenuItem.Name = "gọiMónThanhToánToolStripMenuItem";
@@ -121,6 +146,8 @@
             thanhToánToolStripMenuItem.Text = "Thanh toán";
             thanhToánToolStripMenuItem.Click += thanhToánToolStripMenuItem_Click;
             // 
+=======
+>>>>>>> origin/main
             // thốngKêToolStripMenuItem
             // 
             thốngKêToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { báoCáoToolStripMenuItem, dashboardToolStripMenuItem });
@@ -128,6 +155,7 @@
             thốngKêToolStripMenuItem.Size = new Size(68, 20);
             thốngKêToolStripMenuItem.Text = "Thống kê";
             // 
+<<<<<<< HEAD
             // báoCáoToolStripMenuItem
             // 
             báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
@@ -140,6 +168,8 @@
             dashboardToolStripMenuItem.Size = new Size(131, 22);
             dashboardToolStripMenuItem.Text = "Dashboard";
             // 
+=======
+>>>>>>> origin/main
             // hệThốngToolStripMenuItem
             // 
             hệThốngToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thoátToolStripMenuItem });
@@ -147,10 +177,65 @@
             hệThốngToolStripMenuItem.Size = new Size(69, 20);
             hệThốngToolStripMenuItem.Text = "Hệ thống";
             // 
+<<<<<<< HEAD
             // thoátToolStripMenuItem
             // 
             thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
             thoátToolStripMenuItem.Size = new Size(104, 22);
+=======
+            // danhMụcĐồUốngToolStripMenuItem
+            // 
+            danhMụcĐồUốngToolStripMenuItem.Name = "danhMụcĐồUốngToolStripMenuItem";
+            danhMụcĐồUốngToolStripMenuItem.Size = new Size(180, 22);
+            danhMụcĐồUốngToolStripMenuItem.Text = "Danh mục đồ uống";
+            // 
+            // menuToolStripMenuItem
+            // 
+            menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            menuToolStripMenuItem.Size = new Size(180, 22);
+            menuToolStripMenuItem.Text = "Menu";
+            // 
+            // bànToolStripMenuItem
+            // 
+            bànToolStripMenuItem.Name = "bànToolStripMenuItem";
+            bànToolStripMenuItem.Size = new Size(180, 22);
+            bànToolStripMenuItem.Text = "Bàn ";
+            // 
+            // nhânViênToolStripMenuItem
+            // 
+            nhânViênToolStripMenuItem.Name = "nhânViênToolStripMenuItem";
+            nhânViênToolStripMenuItem.Size = new Size(180, 22);
+            nhânViênToolStripMenuItem.Text = "Nhân viên";
+            // 
+            // gọiMónToolStripMenuItem
+            // 
+            gọiMónToolStripMenuItem.Name = "gọiMónToolStripMenuItem";
+            gọiMónToolStripMenuItem.Size = new Size(180, 22);
+            gọiMónToolStripMenuItem.Text = "Gọi món";
+            // 
+            // thanhToánToolStripMenuItem
+            // 
+            thanhToánToolStripMenuItem.Name = "thanhToánToolStripMenuItem";
+            thanhToánToolStripMenuItem.Size = new Size(180, 22);
+            thanhToánToolStripMenuItem.Text = "Thanh toán";
+            // 
+            // báoCáoToolStripMenuItem
+            // 
+            báoCáoToolStripMenuItem.Name = "báoCáoToolStripMenuItem";
+            báoCáoToolStripMenuItem.Size = new Size(180, 22);
+            báoCáoToolStripMenuItem.Text = "Báo cáo";
+            // 
+            // dashboardToolStripMenuItem
+            // 
+            dashboardToolStripMenuItem.Name = "dashboardToolStripMenuItem";
+            dashboardToolStripMenuItem.Size = new Size(180, 22);
+            dashboardToolStripMenuItem.Text = "Dashboard";
+            // 
+            // thoátToolStripMenuItem
+            // 
+            thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
+            thoátToolStripMenuItem.Size = new Size(180, 22);
+>>>>>>> origin/main
             thoátToolStripMenuItem.Text = "Thoát";
             // 
             // MainForm
@@ -159,7 +244,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(menuStrip1);
+<<<<<<< HEAD
             IsMdiContainer = true;
+=======
+>>>>>>> origin/main
             MainMenuStrip = menuStrip1;
             Name = "MainForm";
             Text = "Form1";
@@ -180,12 +268,20 @@
         private ToolStripMenuItem bànToolStripMenuItem;
         private ToolStripMenuItem nhânViênToolStripMenuItem;
         private ToolStripMenuItem nghiệpVụToolStripMenuItem;
+<<<<<<< HEAD
+=======
+        private ToolStripMenuItem gọiMónToolStripMenuItem;
+        private ToolStripMenuItem thanhToánToolStripMenuItem;
+>>>>>>> origin/main
         private ToolStripMenuItem thốngKêToolStripMenuItem;
         private ToolStripMenuItem báoCáoToolStripMenuItem;
         private ToolStripMenuItem dashboardToolStripMenuItem;
         private ToolStripMenuItem hệThốngToolStripMenuItem;
         private ToolStripMenuItem thoátToolStripMenuItem;
+<<<<<<< HEAD
         private ToolStripMenuItem gọiMónThanhToánToolStripMenuItem;
         private ToolStripMenuItem thanhToánToolStripMenuItem;
+=======
+>>>>>>> origin/main
     }
 }

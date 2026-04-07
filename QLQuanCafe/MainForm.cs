@@ -6,6 +6,7 @@ namespace QLQuanCafe
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void gọiMónToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -23,5 +24,7 @@ namespace QLQuanCafe
         {
            
         }
+=======
+>>>>>>> origin/main
     }
 }
