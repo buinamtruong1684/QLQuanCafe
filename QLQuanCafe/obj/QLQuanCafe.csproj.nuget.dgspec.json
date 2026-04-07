@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj": {}
+    "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj": {
+    "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj",
+        "projectUniqueName": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj",
         "projectName": "QLQuanCafe",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\QLQuanCafe\\QLQuanCafe\\obj\\",
+        "projectPath": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\QLQuanCafe.csproj",
+        "packagesPath": "C:\\Users\\VUONG PC\\.nuget\\packages\\",
+        "outputPath": "F:\\KING\\Lap trinh .Net\\qlbancf\\QLQuanCafe\\QLQuanCafe\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\VUONG PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,7 +40,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0-windows7.0": {
@@ -80,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
