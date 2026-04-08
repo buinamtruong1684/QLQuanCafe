@@ -24,18 +24,88 @@ namespace QLQuanCafe
         {
             LoadBan();
 
+            // Nạp dữ liệu vào Combobox
+            cboTrangThai.Items.Clear();
             cboTrangThai.Items.Add("Trống");
             cboTrangThai.Items.Add("Có khách");
+
+            // Cấu hình giao diện bảng cho chuyên nghiệp
+            SetupDataGridView();
         }
 
-        // LOAD
+        // --- CÁC HÀM HỖ TRỢ NÂNG CẤP ---
+
+        void SetupDataGridView()
+        {
+            if (dgvBan.Columns.Count > 0)
+            {
+                dgvBan.Columns["MaBan"].HeaderText = "Mã Số";
+                dgvBan.Columns["TenBan"].HeaderText = "Tên Bàn";
+                dgvBan.Columns["TrangThai"].HeaderText = "Trạng Thái";
+
+                // Tự động giãn cột
+                dgvBan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                dgvBan.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+                dgvBan.ReadOnly = true;
+            }
+        }
+
+        bool ValidateData()
+        {
+            if (string.IsNullOrWhiteSpace(txtTenBan.Text))
+            {
+                MessageBox.Show("Vui lòng nhập tên bàn!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtTenBan.Focus();
+                return false;
+            }
+            if (cboTrangThai.SelectedIndex == -1)
+            {
+                MessageBox.Show("Vui lòng chọn trạng thái!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            return true;
+        }
+
+        void ClearInput()
+        {
+            txtTenBan.Clear();
+            cboTrangThai.SelectedIndex = -1;
+            txtTenBan.Focus();
+        }
+
+        // --- CỐT LÕI XỬ LÝ DỮ LIỆU ---
+
         void LoadBan()
         {
             dgvBan.DataSource = db.Bans.ToList();
         }
 
-        // THÊM
-        private void btnThem_Click(object sender, EventArgs e)
+
+
+
+        // CLICK GRID
+        private void dgvBan_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (dgvBan.CurrentRow == null) return;
+
+            txtTenBan.Text = dgvBan.CurrentRow.Cells["TenBan"].Value.ToString();
+            cboTrangThai.Text = dgvBan.CurrentRow.Cells["TrangThai"].Value.ToString();
+
+            // HIỆU ỨNG: Thay đổi màu panel hiển thị trạng thái (giống hình nhân viên)
+            string tinhTrang = cboTrangThai.Text;
+            if (tinhTrang == "Trống")
+            {
+                lblTrangThai.BackColor = Color.LimeGreen;
+                lblTrangThai.Text = "Trạng thái: Đang Trống";
+            }
+            else
+            {
+                lblTrangThai.BackColor = Color.OrangeRed;
+                lblTrangThai.Text = "Trạng thái: Có Khách";
+            }
+        }
+
+        private void btnThem_Click_1(object sender, EventArgs e)
         {
             Ban b = new Ban();
 
@@ -48,8 +118,27 @@ namespace QLQuanCafe
             LoadBan();
         }
 
-        // SỬA
-        private void btnSua_Click(object sender, EventArgs e)
+        private void btnXoa_Click_1(object sender, EventArgs e)
+        {
+            int id = (int)dgvBan.CurrentRow.Cells["MaBan"].Value;
+
+            var b = db.Bans.Find(id);
+
+            if (b != null)
+            {
+                db.Bans.Remove(b);
+                db.SaveChanges();
+                LoadBan();
+            }
+        }
+
+        private void btnLoad_Click_1(object sender, EventArgs e)
+        {
+            LoadBan();
+            ClearInput();
+        }
+
+        private void btnSua_Click_1(object sender, EventArgs e)
         {
             int id = (int)dgvBan.CurrentRow.Cells["MaBan"].Value;
 
@@ -65,26 +154,9 @@ namespace QLQuanCafe
             }
         }
 
-        // XÓA
-        private void btnXoa_Click(object sender, EventArgs e)
+        private void lblTrangThai_Click(object sender, EventArgs e)
         {
-            int id = (int)dgvBan.CurrentRow.Cells["MaBan"].Value;
 
-            var b = db.Bans.Find(id);
-
-            if (b != null)
-            {
-                db.Bans.Remove(b);
-                db.SaveChanges();
-                LoadBan();
-            }
-        }
-
-        // CLICK GRID
-        private void dgvBan_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            txtTenBan.Text = dgvBan.CurrentRow.Cells["TenBan"].Value.ToString();
-            cboTrangThai.Text = dgvBan.CurrentRow.Cells["TrangThai"].Value.ToString();
         }
     }
 }

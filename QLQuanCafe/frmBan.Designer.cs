@@ -32,16 +32,19 @@ namespace QLQuanCafe
             label1 = new Label();
             groupBox1 = new GroupBox();
             btnLoad = new Button();
+            cboTrangThai = new ComboBox();
             btnXoa = new Button();
             btnSua = new Button();
-            btnThem = new Button();
-            cboTrangThai = new ComboBox();
             txtTenBan = new TextBox();
+            btnThem = new Button();
             label3 = new Label();
             label2 = new Label();
             dgvBan = new DataGridView();
+            groupBox2 = new GroupBox();
+            lblTrangThai = new Label();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvBan).BeginInit();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -57,11 +60,11 @@ namespace QLQuanCafe
             // groupBox1
             // 
             groupBox1.Controls.Add(btnLoad);
+            groupBox1.Controls.Add(cboTrangThai);
             groupBox1.Controls.Add(btnXoa);
             groupBox1.Controls.Add(btnSua);
-            groupBox1.Controls.Add(btnThem);
-            groupBox1.Controls.Add(cboTrangThai);
             groupBox1.Controls.Add(txtTenBan);
+            groupBox1.Controls.Add(btnThem);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label2);
             groupBox1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -75,46 +78,16 @@ namespace QLQuanCafe
             // btnLoad
             // 
             btnLoad.BackColor = SystemColors.Info;
-            btnLoad.Location = new Point(625, 98);
+            btnLoad.Image = Properties.Resources._4213447_arrow_load_loading_refresh_reload_restart_sync_115423;
+            btnLoad.ImageAlign = ContentAlignment.MiddleLeft;
+            btnLoad.Location = new Point(600, 95);
             btnLoad.Name = "btnLoad";
-            btnLoad.Size = new Size(94, 29);
-            btnLoad.TabIndex = 7;
+            btnLoad.Size = new Size(106, 38);
+            btnLoad.TabIndex = 11;
             btnLoad.Text = "Load";
+            btnLoad.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnLoad.UseVisualStyleBackColor = false;
-            btnLoad.Click += btnLoad_Click;
-            // 
-            // btnXoa
-            // 
-            btnXoa.BackColor = SystemColors.Info;
-            btnXoa.Location = new Point(625, 40);
-            btnXoa.Name = "btnXoa";
-            btnXoa.Size = new Size(94, 29);
-            btnXoa.TabIndex = 6;
-            btnXoa.Text = "Xóa";
-            btnXoa.UseVisualStyleBackColor = false;
-            btnXoa.Click += btnXoa_Click;
-            // 
-            // btnSua
-            // 
-            btnSua.BackColor = SystemColors.Info;
-            btnSua.Location = new Point(478, 98);
-            btnSua.Name = "btnSua";
-            btnSua.Size = new Size(94, 29);
-            btnSua.TabIndex = 5;
-            btnSua.Text = "Sửa";
-            btnSua.UseVisualStyleBackColor = false;
-            btnSua.Click += btnSua_Click;
-            // 
-            // btnThem
-            // 
-            btnThem.BackColor = SystemColors.Info;
-            btnThem.Location = new Point(478, 37);
-            btnThem.Name = "btnThem";
-            btnThem.Size = new Size(94, 29);
-            btnThem.TabIndex = 4;
-            btnThem.Text = "Thêm";
-            btnThem.UseVisualStyleBackColor = false;
-            btnThem.Click += btnThem_Click;
+            btnLoad.Click += btnLoad_Click_1;
             // 
             // cboTrangThai
             // 
@@ -125,6 +98,33 @@ namespace QLQuanCafe
             cboTrangThai.Size = new Size(226, 31);
             cboTrangThai.TabIndex = 3;
             // 
+            // btnXoa
+            // 
+            btnXoa.BackColor = Color.Red;
+            btnXoa.Image = Properties.Resources.trash_can_icon_198337;
+            btnXoa.ImageAlign = ContentAlignment.MiddleLeft;
+            btnXoa.Location = new Point(600, 36);
+            btnXoa.Name = "btnXoa";
+            btnXoa.Size = new Size(106, 42);
+            btnXoa.TabIndex = 10;
+            btnXoa.Text = "Xóa";
+            btnXoa.UseVisualStyleBackColor = false;
+            btnXoa.Click += btnXoa_Click_1;
+            // 
+            // btnSua
+            // 
+            btnSua.BackColor = SystemColors.HotTrack;
+            btnSua.Image = Properties.Resources.Pencil512_44200;
+            btnSua.ImageAlign = ContentAlignment.MiddleLeft;
+            btnSua.Location = new Point(446, 95);
+            btnSua.Name = "btnSua";
+            btnSua.Size = new Size(105, 38);
+            btnSua.TabIndex = 9;
+            btnSua.Text = "Sửa";
+            btnSua.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnSua.UseVisualStyleBackColor = false;
+            btnSua.Click += btnSua_Click_1;
+            // 
             // txtTenBan
             // 
             txtTenBan.BackColor = SystemColors.Info;
@@ -132,6 +132,20 @@ namespace QLQuanCafe
             txtTenBan.Name = "txtTenBan";
             txtTenBan.Size = new Size(226, 30);
             txtTenBan.TabIndex = 2;
+            // 
+            // btnThem
+            // 
+            btnThem.BackColor = Color.PaleGreen;
+            btnThem.Image = Properties.Resources.add_icon_icons_com_74429__1_;
+            btnThem.ImageAlign = ContentAlignment.MiddleLeft;
+            btnThem.Location = new Point(446, 38);
+            btnThem.Name = "btnThem";
+            btnThem.Size = new Size(105, 40);
+            btnThem.TabIndex = 8;
+            btnThem.Text = "Thêm";
+            btnThem.TextImageRelation = TextImageRelation.ImageBeforeText;
+            btnThem.UseVisualStyleBackColor = false;
+            btnThem.Click += btnThem_Click_1;
             // 
             // label3
             // 
@@ -157,7 +171,7 @@ namespace QLQuanCafe
             // 
             dgvBan.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgvBan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvBan.Location = new Point(12, 244);
+            dgvBan.Location = new Point(12, 249);
             dgvBan.Name = "dgvBan";
             dgvBan.RowHeadersWidth = 51;
             dgvBan.Size = new Size(767, 265);
@@ -165,12 +179,38 @@ namespace QLQuanCafe
             dgvBan.CellClick += dgvBan_CellClick;
             dgvBan.CellContentClick += dgvBan_CellContentClick;
             // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(lblTrangThai);
+            groupBox2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            groupBox2.Location = new Point(12, 520);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(767, 101);
+            groupBox2.TabIndex = 7;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Trạng thái bàn";
+            // 
+            // lblTrangThai
+            // 
+            lblTrangThai.BackColor = Color.Lime;
+            lblTrangThai.Dock = DockStyle.Fill;
+            lblTrangThai.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblTrangThai.ForeColor = Color.Black;
+            lblTrangThai.Location = new Point(3, 26);
+            lblTrangThai.Name = "lblTrangThai";
+            lblTrangThai.Size = new Size(761, 72);
+            lblTrangThai.TabIndex = 1;
+            lblTrangThai.Text = "Trạng thái:";
+            lblTrangThai.TextAlign = ContentAlignment.MiddleCenter;
+            lblTrangThai.Click += lblTrangThai_Click;
+            // 
             // frmBan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightCoral;
-            ClientSize = new Size(791, 531);
+            BackColor = SystemColors.ButtonHighlight;
+            ClientSize = new Size(791, 635);
+            Controls.Add(groupBox2);
             Controls.Add(dgvBan);
             Controls.Add(groupBox1);
             Controls.Add(label1);
@@ -180,6 +220,7 @@ namespace QLQuanCafe
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dgvBan).EndInit();
+            groupBox2.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -198,14 +239,16 @@ namespace QLQuanCafe
 
         private Label label1;
         private GroupBox groupBox1;
-        private Button btnLoad;
-        private Button btnXoa;
-        private Button btnSua;
-        private Button btnThem;
         private ComboBox cboTrangThai;
         private TextBox txtTenBan;
         private Label label3;
         private Label label2;
         private DataGridView dgvBan;
+        private Button btnLoad;
+        private Button btnXoa;
+        private Button btnSua;
+        private Button btnThem;
+        private GroupBox groupBox2;
+        private Label lblTrangThai;
     }
 }

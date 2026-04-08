@@ -24,15 +24,49 @@ namespace QLQuanCafe
         {
             LoadNV();
 
-            cboCaLam.Items.Add("Sáng");
-            cboCaLam.Items.Add("Chiều");
-            cboCaLam.Items.Add("Tối");
+            // Thiết lập ComboBox chuyên nghiệp
+            cboCaLam.Items.Clear();
+            cboCaLam.Items.AddRange(new string[] { "Sáng", "Chiều", "Tối" });
+            cboCaLam.DropDownStyle = ComboBoxStyle.DropDownList; // Ngăn người dùng tự gõ
         }
 
-        // LOAD
+        void CapNhatTrangThaiUI(string text, Color backColor)
+        {
+            lblTrangThai.Text = text;
+            lblTrangThai.BackColor = backColor;
+            lblTrangThai.ForeColor = Color.Black;
+            lblTrangThai.Font = new Font("Segoe UI", 12, FontStyle.Bold);
+            lblTrangThai.TextAlign = ContentAlignment.MiddleCenter;
+            lblTrangThai.BorderStyle = BorderStyle.FixedSingle;
+            lblTrangThai.AutoSize = false;
+            lblTrangThai.Dock = DockStyle.Fill; 
+        }
+
+        // LOAD & ĐỊNH DẠNG
         void LoadNV()
         {
             dgvNV.DataSource = db.NhanViens.ToList();
+            DinhDangLuoi();
+        }
+
+        void DinhDangLuoi()
+        {
+            if (dgvNV.Columns["MaNv"] != null) dgvNV.Columns["MaNv"].HeaderText = "Mã NV";
+            if (dgvNV.Columns["TenNv"] != null) dgvNV.Columns["TenNv"].HeaderText = "Tên Nhân Viên";
+            if (dgvNV.Columns["Sdt"] != null) dgvNV.Columns["Sdt"].HeaderText = "Số Điện Thoại";
+            if (dgvNV.Columns["CaLam"] != null) dgvNV.Columns["CaLam"].HeaderText = "Ca Trực";
+
+            dgvNV.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvNV.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dgvNV.AllowUserToAddRows = false;
+        }
+
+        void ClearInput()
+        {
+            txtTenNV.Clear();
+            txtSDT.Clear();
+            cboCaLam.SelectedIndex = -1;
+            txtTenNV.Focus();
         }
 
         // THÊM
@@ -86,9 +120,15 @@ namespace QLQuanCafe
         // CLICK GRID
         private void dgvNV_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            txtTenNV.Text = dgvNV.CurrentRow.Cells["TenNv"].Value.ToString();
-            txtSDT.Text = dgvNV.CurrentRow.Cells["Sdt"].Value.ToString();
-            cboCaLam.Text = dgvNV.CurrentRow.Cells["CaLam"].Value.ToString();
+            if (dgvNV.CurrentRow != null)
+            {
+                txtTenNV.Text = dgvNV.CurrentRow.Cells["TenNv"].Value?.ToString();
+                txtSDT.Text = dgvNV.CurrentRow.Cells["Sdt"].Value?.ToString();
+                cboCaLam.Text = dgvNV.CurrentRow.Cells["CaLam"].Value?.ToString();
+
+                // --- CẬP NHẬT KHU VỰC 3 KHI CLICK ---
+                CapNhatTrangThaiUI("Trạng thái: Đang làm", Color.LimeGreen);
+            }
         }
     }
 }
